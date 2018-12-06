@@ -1,0 +1,78 @@
+body{
+  padding:0px;
+  margin: 0px;
+  margin-left: 0px;
+}
+.nav-item{
+  margin-left: 40px;
+  font-family: 'Cormorant Upright', serif;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Sedgwick Ave', cursive;
+font-family: 'Bai Jamjuree', sans-serif;
+}
+h1{
+  margin-top: -30px;
+}
+#code-once{
+  font-size:23px;
+}
+#think-twice{
+  letter-spacing: 0.17em;
+  text-transform: capitalize;
+}
+
+#signin{
+  text-transform: capitalize;
+}
+#jumbotron-id{
+  font-family: 'Cormorant Upright', serif;
+font-family: 'Lobster', cursive;
+margin-top: -5px;
+height: 180px;
+}
+#slides-img{
+  width: 100%;
+  height: 400px;
+}
+#title{
+/* opacity: 0.9s; */
+/* background-color: #eeeeee; */
+font-family: 'Cormorant Uprig2ht', serif;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Sedgwick Ave', cursive;
+}
+#col-size3{
+  margin-top: 6px;
+}
+@media(min-width:200px) and (max-width:500px){
+  #slides-img{
+    width: 100%;
+    height: 250px;
+  }
+#think-twice{
+  letter-spacing: 0.15em;
+  font-size: 40px;
+}
+#jumbotron-id{
+  height:200px;
+}
+}
+
+
+
+@media(min-width:200px) and (max-width:995px){
+  #col-size{
+    margin-bottom: 10px;
+  }
+}
+@media(min-width:270px) and (max-width:576px){
+  #card-row{
+    text-align: center;
+  }
+  #card-size{
+    width:200px;
+  }
+  .col{
+    margin:0px auto;
+  }
+}
